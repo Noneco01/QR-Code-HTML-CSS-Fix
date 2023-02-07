@@ -1,0 +1,55 @@
+
+body{
+    background-color:hsl(212, 45%, 89%) ;
+    font-family: 'Outfit', sans-serif;
+}
+
+/* use main for go center */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* frame card color */
+.container{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    max-width: 320px;
+}
+
+.QRcode{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Item-1{
+    padding: 15px;
+}
+
+.Item-2{
+
+    text-align: center;
+    align-self: stretch;
+    position: relative;
+    bottom: 15px;
+}
+
+h2{
+    color: hsl(218, 44%, 22%);
+    font-size: 1.313rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+p{
+    color: hsl(220, 15%, 55%);
+    padding: 5px;
+    font-size: 0.935rem;
+}
+
